@@ -1,6 +1,11 @@
 # iugu-sample-checkout-php
-<<<<<<< HEAD
-iugu.com sample PHP payment
-=======
 https://iugu.com sample PHP payment
->>>>>>> 9c8b0681c17955cf9478073abd1736d85e09e0dc
+
+Steps:
+  1) Create an Iugu account;
+  2) Get your AccountID (https://app.iugu.com/account)
+  3) Create a test token (https://app.iugu.com/account)
+  
+* Remove "Iugu.setTestMode(true);" (index.html:49) In production environment
+  
+References: https://iugu.com/referencias/iugu-js
